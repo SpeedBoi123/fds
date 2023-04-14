@@ -1,0 +1,6 @@
+local args = {
+    [1] = "1",
+    [2] = "OrangeOrbs"
+}
+
+game:GetService("ReplicatedStorage").NetManagedInstances.orbCollection:FireServer(unpack(args))
